@@ -6,7 +6,7 @@ pipeline{
     stages {
          stage('Cloning Git') {
             steps {
-                 git branch: 'main', url: 'https://github.com/sarithabora2246/helloworld.git'   
+                 git branch: 'main', url: 'https://github.com/sarithabora2246/mynewspringboot.git'   
             }
         }
       stage('Pull Changes') {
